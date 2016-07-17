@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Centipede game
+# invaders game
 #
-# v2.0
+# v1.0
 #
 # Make the cursor invisible (man terminfo)
 tput civis
@@ -14,11 +14,11 @@ cat - << EOF
 
            SPACE
 
-   LEFT:      z
-   RIGHT:     x
-   FIRE:      c
+   LEFT:   Z
+   RIGHT:  X
+   FIRE:   C
 
-   QUIT:      q
+   QUIT:   Q
 
                             Press any key.
 EOF
